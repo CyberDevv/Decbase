@@ -1,0 +1,25 @@
+{
+  "name": "practice-Decbase",
+  "version": "1.0.0",
+  "description": "A practice landing page using tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss Private/CSS/tailwind.css -o public/build/CSS/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hibee1/practice-Decbase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hibee1/practice-Decbase/issues"
+  },
+  "homepage": "https://github.com/Hibee1/practice-Decbase#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  }
+}
