@@ -8,8 +8,8 @@
       <link rel="stylesheet" href="build/CSS/styles.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    </head>
-   <body class="antialiased bg-gray-100">
-      <header class="lg:px-16 px-6 flex flex-wrap items-center lg:py-0 py-2">
+   <body class="antialiased bg-gray-100 text-gray-700">
+      <header class="lg:px-16 px-6 flex flex-wrap items-center lg:py-4 py-2">
          <div class="flex-1 flex justify-between items-center">
             <a href="#">
                <svg class="w-32" viewBox="0 0 151 47" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -22,13 +22,13 @@
                   </defs>
                </svg>                  
             </a>
-            <button class="bg-pink-400 text-white mr-7 px-6 py-2 lg:hidden rounded-tl-2xl rounded-br-2xl">Sign Up</button>
+            <button class="bg-brown text-white mr-7 px-6 py-2 lg:hidden rounded-tl-2xl rounded-br-2xl">Sign Up</button>
          </div>
             <label for="menu-toggle" class="cursor-pointer lg:hidden block"><i class="material-icons">menu</i></label>
             <input type="checkbox" class="hidden" id="menu-toggle" />
             <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
                <nav class="lg:mr-12">
-                  <ul class="lg:flex items-center justify-between text-sm text-gray-700 pt-4 lg:pt-0">
+                  <ul class="lg:flex items-center font-bold justify-between text-sm text-gray-700 pt-4 lg:pt-0">
                      <li>
                         <a href="#" class="navItem">Home</a>
                      </li>
@@ -53,7 +53,21 @@
                   </ul>
                </nav>
             </div>
-            <button class="bg-pink-400 text-white lg:block hidden px-6 py-2 rounded-tl-2xl rounded-br-2xl">Sign Up</button>
+            <button class="bg-brown text-white lg:block hidden px-6 py-2 rounded-tl-2xl rounded-br-2xl">Sign Up</button>
       </header>
+      <main class="px-16">
+         <div class="flex justify-between items-center space-x-24">
+            <div class="w-1/2">
+               <h4 class="uppercase font-light">Mordern Interior</h4>
+               <h2 class="text-7xl font-bold mt-4">Create Your Interior Design.</h2>
+               <p class="mt-4 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laudantium molestias ipsum laborum neque, quas nihil repudiandae voluptatum ipsam distinctio quidem illo velit magni dolorum asperiores.</p>
+            </div>
+            <div class="w-1/2">
+               <div class="border border-brown rounded-tl-3xl">
+                  <img class="rounded-tl-3xl" src="build/IMG/toa-heftiba-FV3GConVSss-unsplash.png" alt="">
+               </div>
+            </div>
+         </div>
+      </main>
    </body>
 </html>
