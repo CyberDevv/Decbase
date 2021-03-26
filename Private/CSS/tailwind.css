@@ -5,6 +5,10 @@
     @apply lg:p-4 py-3 px-0 block border-b-2 uppercase text-gray-700 border-transparent hover:border-brown flex items-center;
 }
 
+.btn {
+    @apply text-white mr-7 px-6 py-2 rounded-tl-2xl rounded-br-2xl; 
+}
+
 @tailwind utilities;
 
 
