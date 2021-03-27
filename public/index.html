@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
    <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,7 +9,14 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    </head>
    <body class="antialiased bg-gray-100 text-gray-700">
-      <div class="container mx-auto">
+      <!-- 
+         
+       -->
+            <!-- The padding bottom should be removed after developmet -->
+                                                                             <!-- 
+
+                                                                              -->
+      <div class="container mx-auto pb-10">
          <header class="lg:px-16 px-6 flex flex-wrap items-center lg:py-4 py-2">
             <div class="flex-1 flex justify-between items-center">
                <a href="#">
@@ -37,10 +44,10 @@
                            <a href="#" class="navItem">Project</a>
                         </li>
                         <li>
-                           <a href="#" class="navItem">Services</a>
+                           <a href="#services" class="navItem">Services</a>
                         </li>
                         <li>
-                           <a href="#" class="navItem">About</a>
+                           <a href="#about" class="navItem">About</a>
                         </li>
                         <li>
                            <a href="#" class="navItem">Blog</a>
@@ -57,20 +64,69 @@
                <button class="bg-brown btn lg:block hidden hover:bg-browner">Sign Up</button>
          </header>
          <main class="px-6 lg:px-16">
+            <!-- Header -->
             <section>
-               <div class="flex flex-col lg:flex-row justify-between items-center lg:space-x-24 pt-8 lg:pt-0">
+               <div class="flex flex-col lg:flex-row justify-between items-center lg:space-x-24 pt-4 lg:pt-0">
                   <div class="lg:w-1/2">
-                     <h4 class="uppercase font-light">Mordern Interior</h4>
-                     <h2 class="text-5xl lg:text-6xl font-bold mt-4">Create Your Interior Design.</h2>
-                     <p class="mt-4 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laudantium molestias ipsum laborum neque, quas nihil repudiandae voluptatum ipsam distinctio quidem illo velit magni dolorum asperiores.</p>
-                     <button class="btn bg-green-700 uppercase font-bold mt-5 hover:bg-green-800">Contact</button>
+                     <h4 class="uppercase text-xs md:text-base font-light">Mordern Interior</h4>
+                     <h2 class="text-4xl md:text-6xl font-bold mt-2 md:mt-4">Create Your Interior Design.</h2>
+                     <p class="mt-2 md:mt-4 leading-7 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laudantium molestias ipsum laborum neque, quas nihil repudiandae voluptatum ipsam distinctio quidem illo velit magni dolorum asperiores.</p>
+                     <button class="btn bg-green-700 uppercase font-bold mt-2 md:mt-4 hover:bg-green-800">Contact</button>
                   </div>
                   <div class="lg:w-1/2 relative flex justify-center items-center pt-16 lg:pt-20">
-                     <div class="border-3 border-brown rounded-tl-large rounded-br-large h-80 w-80 sm:h-128 sm:w-144">
-                        <div class="overflow-hidden -mt-7 -ml-7 absolute rounded-tl-large rounded-br-large">
-                           <img class="h-80 w-80 sm:h-128 sm:w-144" src="build/IMG/toa-heftiba-FV3GConVSss-unsplash.png" alt="">
+                     <div class="border-3 border-brown rounded-tl-large rounded-br-large h-72 w-72 sm:h-128 sm:w-144">
+                        <div class="overflow-hidden  -mt-4 -ml-4 md:-mt-7 md:-ml-7">
+                           <img class="h-72 w-72 sm:h-128 sm:w-144 absolute rounded-tl-large rounded-br-large" src="build/IMG/toa-heftiba-FV3GConVSss-unsplash.png" alt="">
                         </div>
                      </div>
+                  </div>
+               </div>
+            </section>
+            <!-- Services -->
+            <section  id="services">
+               <div class="mt-16 md:mt-32">
+                  <h4 class="uppercase text-xs md:text-base font-light">What we do</h4>
+                  <h2 class="text-3xl md:text-5xl mt-1 md:mt-2">Our Services</h2>
+                  <div class="lg:flex lg:space-x-6 mt-2 lg:mt-4 justify-center">
+                     <div class="card mb-8 lg:mb-0">
+                        <i class="lg:block mb-2 sm:mb-0">icon</i>
+                        <div>
+                           <h5 class="font-bold text-lg mb-1">Interior Design</h5>
+                           <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat illum blanditiis. Eaque.</p>
+                        </div>
+                     </div>
+                     <div class="bg-brown text-gray-100 card  mb-8 lg:mb-0">
+                        <i class="lg:block mb-2 sm:mb-0">icon</i>
+                        <div>
+                           <h5 class="font-bold text-lg mb-1">Interior Design</h5>
+                           <p class="text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat illum blanditiis. Eaque.</p>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <i class="lg:block mb-2 sm:mb-0">icon</i>
+                        <div>
+                           <h5 class="font-bold text-lg mb-1">Interior Design</h5>
+                           <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat illum blanditiis. Eaque.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- About us -->
+            <section id="about">
+               <div class="flex flex-col lg:flex-row justify-between items-center lg:space-x-24 pt-4 lg:pt-0">
+                  <div class="lg:w-1/2 relative flex justify-center items-center pt-16 lg:pt-20">
+                     <div class="border-3 border-brown rounded-tl-large rounded-br-large h-72 w-72 sm:h-128 sm:w-144">
+                        <div class="overflow-hidden  mt-4 ml-4 md:mt-7 md:ml-7">
+                           <img class="h-72 w-72 sm:h-128 sm:w-144 absolute rounded-tl-large rounded-br-large" src="build/IMG/pexels-vecislavas-popa-1571460.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lg:w-1/2">
+                     <h4 class="uppercase text-xs md:text-base font-light">About Us</h4>
+                     <h2 class="text-3xl md:text-5xl mt-2 md:mt-4">Interioris The Will of an Epoch Mextreo</h2>
+                     <p class="mt-2 md:mt-4 leading-7 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsam quaerat, quae veniam quidem beatae laudantium sed aspernatur incidunt asperiores deserunt fuga iste quo ab. Harum porro aliquid eos sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae in distinctio fugiat molestias? Provident quae magnam accusantium quam necessitatibus laboriosam aut nam dolorem quis, neque quaerat obcaecati at, cupiditate assumenda.</p>
+                     <button class="btn bg-green-700 uppercase font-bold mt-2 md:mt-4 hover:bg-green-800">Learn More</button>
                   </div>
                </div>
             </section>

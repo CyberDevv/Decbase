@@ -9,6 +9,10 @@
     @apply text-white mr-7 px-6 py-2 rounded-tl-2xl rounded-br-2xl; 
 }
 
+.card {
+    @apply shadow-xl rounded-tl-5xl rounded-br-5xl px-8 py-6 md:flex space-x-2;
+}
+
 @tailwind utilities;
 
 

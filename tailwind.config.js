@@ -8,6 +8,7 @@ module.exports = {
         'brown': '#CAA892'
       },
       borderRadius: {
+        '5xl': '2.5rem',
         'large': '10rem'
       },
       spacing: {
