@@ -9,6 +9,7 @@ module.exports = {
       },
       borderRadius: {
         '5xl': '2.5rem',
+        '7xl': '5rem',
         'large': '10rem'
       },
       spacing: {
