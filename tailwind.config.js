@@ -19,6 +19,12 @@ module.exports = {
       },
       borderWidth: {
         '3': '3px'
+      },
+      backgroundImage: theme => ({
+        'text': "url('/public/build/IMG/james-lindsay-kVBzVaVa7Q0-unsplash 1.png')"
+      }),
+      fontSize: {
+        '12xl': ['14rem', '1']
       }
     },
   },

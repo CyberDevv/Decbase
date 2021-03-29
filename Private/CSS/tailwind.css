@@ -6,11 +6,15 @@
 }
 
 .btn {
-    @apply text-white mr-7 px-6 py-2 rounded-tl-2xl rounded-br-2xl; 
+    @apply text-white mr-7 px-6 py-2 rounded-tl-2xl rounded-br-2xl focus:outline-none focus:ring-2 ring-offset-2; 
 }
 
 .card {
     @apply shadow-xl rounded-tl-5xl rounded-br-5xl px-8 py-6 lg:flex space-x-3;
+}
+
+.workCard {
+    @apply shadow-xl rounded-tl-3xl rounded-br-3xl bg-gray-100 px-12 py-8;
 }
 
 @tailwind utilities;

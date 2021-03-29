@@ -618,10 +618,28 @@ video {
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   margin-right: 1.75rem;
+}
+
+.btn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.btn:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.btn {
+  --tw-ring-offset-width: 2px;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
@@ -647,6 +665,19 @@ video {
   .card {
     display: flex;
   }
+}
+
+.workCard {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -4435,6 +4466,10 @@ video {
 
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-text {
+  background-image: url('/public/build/IMG/james-lindsay-kVBzVaVa7Q0-unsplash 1.png');
 }
 
 .from-transparent {
@@ -12025,6 +12060,11 @@ video {
 
 .text-9xl {
   font-size: 8rem;
+  line-height: 1;
+}
+
+.text-12xl {
+  font-size: 14rem;
   line-height: 1;
 }
 
@@ -36329,6 +36369,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-text {
+    background-image: url('/public/build/IMG/james-lindsay-kVBzVaVa7Q0-unsplash 1.png');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -43917,6 +43961,11 @@ video {
 
   .sm\:text-9xl {
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .sm\:text-12xl {
+    font-size: 14rem;
     line-height: 1;
   }
 
@@ -68139,6 +68188,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-text {
+    background-image: url('/public/build/IMG/james-lindsay-kVBzVaVa7Q0-unsplash 1.png');
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -75727,6 +75780,11 @@ video {
 
   .md\:text-9xl {
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .md\:text-12xl {
+    font-size: 14rem;
     line-height: 1;
   }
 
@@ -99949,6 +100007,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-text {
+    background-image: url('/public/build/IMG/james-lindsay-kVBzVaVa7Q0-unsplash 1.png');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -107537,6 +107599,11 @@ video {
 
   .lg\:text-9xl {
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .lg\:text-12xl {
+    font-size: 14rem;
     line-height: 1;
   }
 
@@ -131759,6 +131826,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-text {
+    background-image: url('/public/build/IMG/james-lindsay-kVBzVaVa7Q0-unsplash 1.png');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -139347,6 +139418,11 @@ video {
 
   .xl\:text-9xl {
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .xl\:text-12xl {
+    font-size: 14rem;
     line-height: 1;
   }
 
@@ -163569,6 +163645,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .\32xl\:bg-text {
+    background-image: url('/public/build/IMG/james-lindsay-kVBzVaVa7Q0-unsplash 1.png');
+  }
+
   .\32xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -171157,6 +171237,11 @@ video {
 
   .\32xl\:text-9xl {
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-12xl {
+    font-size: 14rem;
     line-height: 1;
   }
 
