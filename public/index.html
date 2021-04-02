@@ -9,15 +9,8 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    </head>
    <body class="antialiased bg-gray-100 text-gray-700">
-      <!-- 
-         
-       -->
-            <!-- The padding bottom should be removed after developmet -->
-                                                                             <!-- 
-
-                                                                              -->
       <div>
-         <div class="container mx-auto pb-10">
+         <div class="container mx-auto">
             <header class="lg:px-16 px-6 flex flex-wrap items-center lg:py-4 py-2">
                <div class="flex-1 flex justify-between items-center">
                   <a href="#">
@@ -89,21 +82,21 @@
                      <h2 class="text-3xl md:text-5xl mt-1 md:mt-2">Our Services</h2>
                      <div class="lg:flex lg:space-x-6 mt-2 lg:mt-4 justify-center">
                         <div class="card mb-8 lg:mb-0">
-                           <i class="lg:block mb-2 sm:mb-0 w-24"><img src="https://img.icons8.com/dotty/80/000000/bedroom-interior.png" alt="Interior design"/></i>
+                           <i class="lg:block mb-2 lg:mb-0 w-24"><img class="mx-auto lg:mx-0 w-12" src="https://img.icons8.com/dotty/80/000000/bedroom-interior.png" alt="Interior design"/></i>
                            <div class="mt-2">
                               <h5 class="font-bold text-lg mb-1">Interior Design</h5>
                               <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat illum blanditiis. Eaque.</p>
                            </div>
                         </div>
                         <div class="bg-brown text-gray-100 card  mb-8 lg:mb-0">
-                           <i class="lg:block mb-2 sm:mb-0  w-24"><img src="https://img.icons8.com/wired/64/ffffff/floor-plan.png" alt="architecture"/></i>
+                           <i class="lg:block mb-2 lg:mb-0  w-24"><img class="mx-auto lg:mx-0 w-12" src="https://img.icons8.com/wired/64/ffffff/floor-plan.png" alt="architecture"/></i>
                            <div class="mt-2">
                               <h5 class="font-bold text-lg mb-1">Architecture</h5>
                               <p class="text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat illum blanditiis. Eaque.</p>
                            </div>
                         </div>
                         <div class="card">
-                           <i class="lg:block mb-2 sm:mb-0 w-24"><img src="https://img.icons8.com/dotty/80/000000/create.png" alt="planning"/></i>
+                           <i class="lg:block mb-2 lg:mb-0 w-24"><img class="mx-auto lg:mx-0 w-12" src="https://img.icons8.com/dotty/80/000000/create.png" alt="planning"/></i>
                            <div class="mt-2">
                               <h5 class="font-bold text-lg mb-1">Planning</h5>
                               <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat illum blanditiis. Eaque.</p>
@@ -132,7 +125,7 @@
                      <div class="flex flex-col lg:flex-row justify-between items-center lg:space-x-24 pt-4 lg:pt-8">
                         <div class="lg:w-1/2 mt-8 lg:mt-0">
                            <h1 class="bg-clip-text text-transparent bg-text text-12xl font-black">20</h1>
-                           <h2 class="text-5xl capitalize -mt-6">Years of Successful Working The Market</h2>
+                           <h2 class="text-3xl lg:text-5xl capitalize -mt-6">Years of Successful Working The Market</h2>
                            <button class="btn bg-green-700 uppercase font-bold mt-2 md:mt-4 hover:bg-green-800 ring-green-900">Learn More</button>
                         </div>
                         <div class="lg:w-1/2 flex justify-center items-center pt-16 lg:pt-20">
@@ -149,47 +142,78 @@
          <main class="text-center lg:text-left">
             <!-- Work Stream -->
             <section>
-               <div class="bg-gray-200 py-32 px-auto text-center mt-24">
-                  <h2 class="text-5xl capitalize">3000+ Completed works <br> which wehave successfully done</h2>
-                  <div class="flex justify-center mt-16">
-                     <div class="flex items-center">
+               <div class="bg-gray-200 py-16 lg:py-32 lg:mt-40 px-auto text-center">
+                  <h2 class="text-2xl lg:text-5xl capitalize">3000+ Completed works <br> which wehave successfully done</h2>
+                  <div class="flex lg:flex-row flex-col lg:justify-center mt-8 lg:mt-16">
+                     <div class="flex flex-col lg:flex-row items-center">
                         <div class="workCard">
                            <h1 class="text-4xl font-bold">980</h1>
                            <p class="text-gray-500">Project</p>
                         </div>
-                        <div class="h-1 w-12 bg-gray-300"></div>
-                        <div class="h-16 w-1 bg-gray-300 transform translate-y-8 -translate-x-1"></div>
-                        <div class="h-1 w-12 bg-gray-300 transform translate-y-16 -translate-x-1"></div>
+                        <div class="h-16 w-1 bg-gray-300 lg:hidden"></div>
+                        <div class="h-1 w-12 bg-gray-300 hidden lg:block"></div>
+                        <div class="h-16 w-1 bg-gray-300 transform translate-y-8 -translate-x-1 hidden lg:block"></div>
+                        <div class="h-1 w-12 bg-gray-300 transform translate-y-16 -translate-x-1 hidden lg:block"></div>
                      </div>
-                     <div class="flex items-center">
-                        <div class="workCard transform translate-y-16">
+                     <div class="flex flex-col lg:flex-row items-center">
+                        <div class="workCard lg:transform lg:translate-y-16">
                            <h1 class="text-4xl font-bold">520</h1>
                            <p class="text-gray-500">Happy Client</p>
                         </div>
-                        <div class="h-1 w-12 bg-gray-300 transform translate-y-16"></div>
-                        <div class="h-16 w-1 bg-gray-300 transform translate-y-8 -translate-x-1"></div>
-                        <div class="h-1 w-12 bg-gray-300 transform translate-y-0 -translate-x-1"></div>
+                        <div class="h-16 w-1 bg-gray-300 lg:hidden"></div>
+                        <div class="h-1 w-12 bg-gray-300 transform translate-y-16 hidden lg:block"></div>
+                        <div class="h-16 w-1 bg-gray-300 transform translate-y-8 -translate-x-1 hidden lg:block"></div>
+                        <div class="h-1 w-12 bg-gray-300 transform translate-y-0 -translate-x-1 hidden lg:block"></div>
                      </div>
-                     <div class="flex items-center">
+                     <div class="flex flex-col lg:flex-row items-center">
                         <div class="workCard">
                            <h1 class="text-4xl font-bold">330</h1>
                            <p class="text-gray-500">Winners</p>
                         </div>
-                        <div class="h-1 w-12 bg-gray-300"></div>
-                        <div class="h-16 w-1 bg-gray-300 transform translate-y-8 -translate-x-1"></div>
-                        <div class="h-1 w-12 bg-gray-300 transform translate-y-16 -translate-x-1"></div>
+                        <div class="h-16 w-1 bg-gray-300 lg:hidden"></div>
+                        <div class="h-1 w-12 bg-gray-300 hidden lg:block"></div>
+                        <div class="h-16 w-1 bg-gray-300 transform translate-y-8 -translate-x-1 hidden lg:block"></div>
+                        <div class="h-1 w-12 bg-gray-300 transform translate-y-16 -translate-x-1 hidden lg:block"></div>
                      </div>
-                     <div class="flex items-center">
-                        <div class="workCard transform translate-y-16">
+                     <div class="flex flex-col lg:flex-row items-center">
+                        <div class="workCard lg:transform lg:translate-y-16">
                            <h1 class="text-4xl font-bold">120</h1>
                            <p class="text-gray-500">Recoment</p>
                         </div>
-                        <div class="h-1 w-12 bg-gray-300 transform translate-y-16"></div>
                      </div>
                   </div>
                </div>
             </section>
          </main>
+
+         
+         <div class="container mx-auto pb-10">
+            <!-- Testimonial -->
+            <section>
+               <div class="mt-36">
+                  <div class="text-center">
+                     <h4 class="uppercase text-sm md:text-base font-bold">Testimonials</h4>
+                     <h2 class="text-3xl md:text-5xl mt-2 md:mt-4">Clients says about us</h2>
+                  </div>
+                  <div class="lg:flex lg:space-x-20 mt-2 lg:mt-4 justify-center">
+                     <div class="card mb-8 lg:mb-0">
+                        <i class="lg:block mb-2 lg:mb-0"><img class="mx-auto lg:mx-0 rounded-tl-3xl rounded-br-2xl" src="build/IMG/pexels-pixabay-220453.png" alt="Interior design"/></i>
+                        <div class="mt-2">
+                           <h5 class="font-bold text-lg mb-1">Louis Saville <span class="font-normal text-xs text-gray-400">/CEO at Google inc</span></h5>
+                           <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat illum blanditiis. Eaque.</p>
+                        </div>
+                     </div>
+                     <div class="card mb-8 lg:mb-0">
+                        <i class="lg:block mb-2 lg:mb-0"><img class="mx-auto lg:mx-0 rounded-tl-3xl rounded-br-2xl" src="build/IMG/pexels-andrea-piacquadio-774909.png" alt="Interior design"/></i>
+                        <div class="mt-2">
+                           <h5 class="font-bold text-lg mb-1">Rekha Varadwaz <span class="font-normal text-xs text-gray-400">/Manager at Nike inc</span></h5>
+                           <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat illum blanditiis. Eaque.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
       </div>
    </body>
 </html>
