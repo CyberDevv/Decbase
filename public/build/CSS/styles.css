@@ -617,7 +617,6 @@ video {
 .btn {
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  margin-right: 1.75rem;
 }
 
 .btn:focus {
