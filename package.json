@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/Hibee1/practice-Decbase#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "autoprefixer": "^10.2.5",
-    "lax.js": "^2.0.3",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.4"
   }
