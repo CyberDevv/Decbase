@@ -4,12 +4,12 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Decbase |Home</title>
+      <title>Decbase</title>
       <link rel="stylesheet" href="build/CSS/styles.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    </head>
-   <body class="antialiased bg-gray-100 text-gray-700">
+   <body class="antialiased bg-gray-100 text-gray-700 overflow-x-hidden">
       <div>
          <div class="container mx-auto">
             <header class="lg:px-16 px-6 flex flex-wrap items-center lg:py-4 py-2">
@@ -46,9 +46,6 @@
                            </li>
                            <li data-aos= "fade-down" data-aos-delay= "500">
                               <a href="#testimonial" class="navItem">Testimonial</a>
-                           </li>
-                           <li data-aos= "fade-down" data-aos-delay= "600">
-                              <a href="#blog" class="navItem">Blog</a>
                            </li>
                            <li data-aos= "fade-down" data-aos-delay= "700">
                               <a href="#contact" class="navItem">Contact</a>
@@ -272,19 +269,55 @@
                <div class="lg:mt-32">
                   <h2 data-aos="fade-down" class="text-center upper text-3xl lg:text-5xl mt-16 lg:mt-0 mb-2">Get in Touch with Us</h2>
                   <div class="flex lg:flex-row flex-col justify-between items-center space-y-8 lg:space-x-24 mt-6">
-                     <div class="shadow-xl w-full lg:w-1/2 p-4">mad</div>
+                     <div class="shadow-xl w-full lg:w-1/2 p-4">
+                        <h4 class="text-2xl mb-4">Contact Info</h4>
+                        <div>
+                           <!-- Each Details -->
+                           <div class="flex items-center text-gray-500">
+                              <span class="material-icons mr-1">schedule</span>
+                              <div class="flex justify-between items-center w-full">
+                                 <h6>Business Hours</h6>
+                                 <h6>9:00 AM - 18-00 PM</h6>
+                              </div>
+                           </div>
+                           <!-- Each Details -->
+                           <div class="flex items-center text-gray-500 mt-4">
+                              <span class="material-icons mr-1">phone</span>
+                              <div class="flex justify-between items-center w-full">
+                                 <h6>Number</h6>
+                                 <h6>+234 8072534558</h6>
+                              </div>
+                           </div>
+                           <!-- Each Details -->
+                           <div class="flex items-center text-gray-500 mt-4">
+                              <span class="material-icons mr-1">mail</span>
+                              <div class="flex justify-between items-center w-full">
+                                 <h6>Email Address</h6>
+                                 <h6>info@decbase.com</h6>
+                              </div>
+                           </div>
+                           <!-- Each Details -->
+                           <div class="flex items-center text-gray-500 mt-4">
+                              <span class="material-icons mr-1">place</span>
+                              <div class="flex justify-between items-center w-full">
+                                 <h6>Address</h6>
+                                 <h6>10 Ladipo road, Ilorin, Nigeria</h6>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                      <div class="shadow-xl w-full lg:w-1/2 p-4">
                         <div>
                            <h4 class="text-lg">Name</h4>
-                           <input class="border-b-3 border-browner bg-transparent w-full text-lg p-2 focus:outline-none focus:shadow-xl" type="text" name="name">
+                           <input class="border-b-3 border-browner bg-transparent w-full text-lg p-2 focus:outline-none focus:shadow-xl transition-shadow duration-300" type="text" name="name">
                         </div>
                         <div>
                            <h4 class="text-lg mt-4">Email</h4>
-                           <input class="border-b-3 border-browner bg-transparent w-full text-lg p-2 focus:outline-none focus:shadow-xl" type="email" name="email">
+                           <input class="border-b-3 border-browner bg-transparent w-full text-lg p-2 focus:outline-none focus:shadow-xl transition-shadow duration-300" type="email" name="email">
                         </div>
                         <div>
                            <h4 class="text-lg mt-4">Message</h4>
-                           <textarea class="w-full p-2 bg-transparent text-lg border-b-3 border-browner focus:outline-none focus:shadow-xl" name="message" rows="10"></textarea>
+                           <textarea class="w-full p-2 bg-transparent text-lg border-b-3 border-browner focus:outline-none focus:shadow-xl transition-shadow duration-300" name="message" rows="5"></textarea>
                         </div>
                         <button type="submit" class="btn bg-brown uppercase font-bold mt-2 md:mt-4 hover:bg-browner ring-browner w-full">Send Message</button>
                      </div>
@@ -359,7 +392,7 @@
       </div>
 
       <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
-      <script src="../node_modules/aos/dist/aos.js"></script>
+      </script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script>
          AOS.init();
        </script>
